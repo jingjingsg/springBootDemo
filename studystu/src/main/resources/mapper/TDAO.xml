@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zenith.studystu.mapper.TDAO">
+
+
+	<insert id="addT" parameterType="com.zenith.studystu.dto.teacher">
+  		insert into teacher values(#{tid}, #{tname},#{tage},#{tsub})
+	</insert>
+</mapper>

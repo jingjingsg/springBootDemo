@@ -1,0 +1,15 @@
+
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: rsoacs
+    password: rsoacs
+    url: jdbc:oracle:thin:@10.10.53.186:1521:oacs
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+mybatis:
+  mapper-locations: classpath:mapper/*DAO.xml
+
+id: 5
+name: 哈哈
